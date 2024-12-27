@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/aboutUs.css">
+</head>
+<body>
+    <main style="position: relative;">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <div class="container-fluid mx-5 ">
+          
+              <div class="nav-logo d-flex align-items-center ">
+                  <i class="fa-solid fa-shield-halved text-light fw-5" style="font-size: 30px;"></i>
+                  <a class="navbar-brand fs-5 ms-2" href="#">Berimbolo</a>
+              </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Berimbolo</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <form class="d-flex mb-3" role="search">
+                  <input class="form-control me-2" id="search-bar" type="search" placeholder="Search" aria-label="Search">
+                  <!-- <button class="btn btn-success" type="submit">Search</button> -->
+                </form>
+                <ul id = "nav-bar" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <section class="about-us p-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="overlay p-5 d-flex justify-content-center align-items-center flex-column">
+                <h1 class="text-light" style="font-size: 55px;">About Us</h1>
+                <p class="text-light text-center fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis non ut obcaecati ab illo minima esse corrupti accusamus quasi iste.</p>
+                <button class="btn btn-light btn-lg px-5">Contact Us</button>
+            </div>
+        </section>
+        <section class="container-fluid p-5 mt-5 our-team">
+            <h1 class="text-center mb-5">Our Team</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4" style="position: relative;">
+              <div class="col">
+                <div class="card h-100 card-hover">
+                  <img src="https://www.hubspot.com/hs-fs/hubfs/employee-retention-rate.jpg?width=595&height=400&name=employee-retention-rate.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Member-1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet rem laboriosam eos officia aliquam? In commodi nostrum maiores sequi est?</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Front End Developer</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 card-hover">
+                  <img src="https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Member-2</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto reiciendis aut cupiditate. Excepturi hic reiciendis voluptas maxime quis, accusamus eius.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Back End Developer</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 card-hover">
+                  <img src="https://media.istockphoto.com/id/1398994132/photo/happy-businesswoman-using-a-digital-tablet-young-leading-businesswoman-using-a-wireless.jpg?s=612x612&w=0&k=20&c=BM3E3osJBZSukhs98G6vn7HXe8QQTExGaymi2a61T3E=" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Member-3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, eius? Rem neque non exercitationem magni assumenda commodi esse quibusdam quae.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Full Stack Developer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </section>
+        <div class="footer">
+          &copy; 2024 Berimbolo. All Rights Reserved.
+        </div>
+
+      </main>
+
+    <script src="../js/all.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
